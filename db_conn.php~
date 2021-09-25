@@ -1,0 +1,16 @@
+<?php
+// Require medoo
+require_once('Medoo.php');
+
+// Using Medoo namespace
+use Medoo\Medoo;
+
+$database = new Medoo([
+  'database_type' => 'mysql',
+  'database_name' => 'iSchool',
+  'server' => 'vw.ischool.utexas.edu',
+  'username' => 'ischool-admin',
+  'password' => 'leash65Defended75Possums',
+	 ]);
+
+?>
